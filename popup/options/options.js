@@ -117,7 +117,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.querySelector('.sub-fieldset').style.display = "block";
 
     // if this is a large window, options have been opened from outside the app, in that case show all options at once
-    if (document.body.clientHeight > 600) {
+    if (document.body.clientHeight > 800) {
         // unhide fieldsets
         document.querySelectorAll('.sub-fieldset').forEach(fldset => {
             fldset.style.display = "block";
