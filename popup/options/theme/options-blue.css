@@ -6,6 +6,7 @@ fieldset.sub-fieldset {
 
 .optionLink {
     color: #999999;
+    display: block !important;
 }
 
 .selected {
